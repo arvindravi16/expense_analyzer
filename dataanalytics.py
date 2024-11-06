@@ -7,7 +7,7 @@ import plotly.colors as colors
 
 pio.templates.default = "plotly_white"
 
-data = pd.read_csv("https://raw.githubusercontent.com/automprojects/expense_analyzer/main/company_dataset.csv", encoding='latin-1')
+data = pd.read_csv("https://raw.githubusercontent.com/arvindravi16/expense_analyzer/main/company_dataset.csv", encoding='latin-1')
 
 st.title("Organization Expense Analyzer")
 
